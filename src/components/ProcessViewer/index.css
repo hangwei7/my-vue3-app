@@ -1,0 +1,139 @@
+.process-viewer {
+  position: relative;
+  border: 1px solid #EFEFEF;
+  background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImEiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTTAgMTBoNDBNMTAgMHY0ME0wIDIwaDQwTTIwIDB2NDBNMCAzMGg0ME0zMCAwdjQwIiBmaWxsPSJub25lIiBzdHJva2U9IiNlMGUwZTAiIG9wYWNpdHk9Ii4yIi8+PHBhdGggZD0iTTQwIDBIMHY0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZTBlMGUwIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2EpIi8+PC9zdmc+') repeat !important;
+}
+
+.process-viewer .success-arrow {
+  fill: #4eb819;
+  stroke: #4eb819;
+}
+
+.process-viewer .success-conditional {
+  fill: white;
+  stroke: #4eb819;
+}
+
+.process-viewer .fail-arrow {
+  fill: #E6A23C;
+  stroke: #E6A23C;
+}
+
+.process-viewer .fail-conditional {
+  fill: white;
+  stroke: #E6A23C;
+}
+
+.process-viewer .success.djs-connection .djs-visual path {
+  stroke: #4eb819 !important;
+  marker-end: url(#sequenceflow-end-white-success) !important;
+}
+
+.process-viewer .success.djs-connection.condition-expression .djs-visual path {
+  marker-start: url(#conditional-flow-marker-white-success) !important;
+}
+
+.process-viewer .success.djs-shape .djs-visual rect {
+  stroke: #4eb819 !important;
+  fill: #4eb819 !important;
+  fill-opacity: 0.15 !important;
+}
+
+.process-viewer .success.djs-shape .djs-visual polygon {
+  stroke: #4eb819 !important;
+}
+
+.process-viewer .success.djs-shape .djs-visual path:nth-child(2) {
+  stroke: #4eb819 !important;
+  fill: #4eb819 !important;
+}
+
+.process-viewer .success.djs-shape .djs-visual circle {
+  stroke: #4eb819 !important;
+  fill: #4eb819 !important;
+  fill-opacity: 0.15 !important;
+}
+
+.process-viewer .primary.djs-shape .djs-visual rect {
+  stroke: #409EFF !important;
+  fill: #409EFF !important;
+  fill-opacity: 0.15 !important;
+}
+
+.process-viewer .primary.djs-shape .djs-visual polygon {
+  stroke: #409EFF !important;
+}
+
+.process-viewer .primary.djs-shape .djs-visual circle {
+  stroke: #409EFF !important;
+  fill: #409EFF !important;
+  fill-opacity: 0.15 !important;
+}
+
+.process-viewer .warning.djs-connection .djs-visual path {
+  stroke: #E6A23C !important;
+  marker-end: url(#sequenceflow-end-white-fail) !important;
+}
+
+.process-viewer .warning.djs-connection.condition-expression .djs-visual path {
+  marker-start: url(#conditional-flow-marker-white-fail) !important;
+}
+
+.process-viewer .warning.djs-shape .djs-visual rect {
+  stroke: #E6A23C !important;
+  fill: #E6A23C !important;
+  fill-opacity: 0.15 !important;
+}
+
+.process-viewer .warning.djs-shape .djs-visual polygon {
+  stroke: #E6A23C !important;
+}
+
+.process-viewer .warning.djs-shape .djs-visual path:nth-child(2) {
+  stroke: #E6A23C !important;
+  fill: #E6A23C !important;
+}
+
+.process-viewer .warning.djs-shape .djs-visual circle {
+  stroke: #E6A23C !important;
+  fill: #E6A23C !important;
+  fill-opacity: 0.15 !important;
+}
+
+.process-viewer .danger.djs-shape .djs-visual rect {
+  stroke: #F56C6C !important;
+  fill: #F56C6C !important;
+  fill-opacity: 0.15 !important;
+}
+
+.process-viewer .danger.djs-shape .djs-visual polygon {
+  stroke: #F56C6C !important;
+}
+
+.process-viewer .danger.djs-shape .djs-visual circle {
+  stroke: #F56C6C !important;
+  fill: #F56C6C !important;
+  fill-opacity: 0.15 !important;
+}
+
+.process-viewer .cancel.djs-shape .djs-visual rect {
+  stroke: #909399 !important;
+  fill: #909399 !important;
+  fill-opacity: 0.15 !important;
+}
+
+.process-viewer .cancel.djs-shape .djs-visual polygon {
+  stroke: #909399 !important;
+}
+
+.process-viewer .cancel.djs-shape .djs-visual circle {
+  stroke: #909399 !important;
+  fill: #909399 !important;
+  fill-opacity: 0.15 !important;
+}
+
+.process-viewer .djs-tooltip-container,
+.process-viewer .djs-overlay-container,
+.process-viewer .djs-palette {
+  display: none;
+}
